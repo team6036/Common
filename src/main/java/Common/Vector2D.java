@@ -90,6 +90,7 @@ public class Vector2D {
         return Math.abs(this.x - comparison.x) < epsilon && Math.abs(this.y - comparison.y) < epsilon;
     }
 
+    @Override
     public String toString() {
         return "(" + Util.roundHundreths(x) + ", " + Util.roundHundreths(y) + ")";
     }

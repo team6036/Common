@@ -103,7 +103,7 @@ public class Util {
         times = new double[] { 0.0, time1, time2, time3 }; // added a zero in the first index so times[1] is time1
       } else {
         isTrapezoid = false;
-        time1 = Math.sqrt((2 * target) / (amax + ((amax) * (amax) / amin)));
+        time1 = Math.sqrt((2 * target) / (amax + (amax * amax / amin)));
         time2 = (amax * time1 / amin) + time1;
         times = new double[] { 0.0, time1, time2 };
       }
@@ -127,7 +127,7 @@ public class Util {
           accel = -amin;
           velo = vmax - (amin * (time - times[2]));
           dist = (0.5 * amax * times[1] * times[1]) + (vmax * (times[2] - times[1]))
-              + (0.5 * (time - times[2]) * ((vmax) + (vmax - (amin * (time - times[2])))));
+              + (0.5 * (time - times[2]) * (vmax + (vmax - (amin * (time - times[2])))));
         } else if (time > times[3]) {
           done = true;
           accel = 0;

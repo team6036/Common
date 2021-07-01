@@ -65,6 +65,7 @@ public class Pose2D extends Vector2D {
         return new Pose2D(getVector2D().add(toAdd.getVector2D()), ang + toAdd.ang);
     }
 
+    @Override
     public Pose2D add(Vector2D toAdd) {
         return this.add(new Pose2D(toAdd, 0));
     }
@@ -73,6 +74,7 @@ public class Pose2D extends Vector2D {
         return new Pose2D(getVector2D().subtract(toSub.getVector2D()), ang - toSub.ang);
     }
 
+    @Override
     public Pose2D scalarMult(double scalar) {
         return new Pose2D(getVector2D().scalarMult(scalar), ang);
     }
