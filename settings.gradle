@@ -16,3 +16,5 @@ pluginManagement {
 }
 
 rootProject.name = 'Common'
+// version = "1.0.0"
+// group = "org.6036"
