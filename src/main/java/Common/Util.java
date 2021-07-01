@@ -1,4 +1,4 @@
-package frc.robot.common;
+package Common;
 
 import java.text.DecimalFormat;
 

@@ -1,14 +1,14 @@
-package frc.robot.common;
+package Common;
 
 import java.util.ArrayList;
 import com.ctre.phoenix.motorcontrol.ControlMode;
 import com.ctre.phoenix.motorcontrol.TalonFXFeedbackDevice;
 import com.ctre.phoenix.motorcontrol.can.WPI_TalonFX;
 import com.ctre.phoenix.sensors.CANCoder;
-import frc.robot.common.OdometryLinear.WheelData;
+import Common.OdometryLinear.WheelData;
 import com.ctre.phoenix.sensors.SensorInitializationStrategy;
-import frc.robot.common.SwerveConstants.DrivePIDS;
-import frc.robot.common.SwerveConstants.TurnPIDS;
+import Common.SwerveConstants.DrivePIDS;
+import Common.SwerveConstants.TurnPIDS;
 
 public class SwerveController {
     private static double WHEEL_RADIUS, DRIVE_RATIO;

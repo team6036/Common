@@ -1,4 +1,4 @@
-package frc.robot.common;
+package Common;
 
 import com.kauailabs.navx.frc.AHRS;
 import edu.wpi.first.wpilibj.SPI;

@@ -1,4 +1,4 @@
-package frc.robot.common;
+package Common;
 
 public class SwerveConstants {
     public static class TurnPIDS {

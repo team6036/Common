@@ -1,4 +1,4 @@
-package frc.robot.common;
+package Common;
 
 import edu.wpi.first.wpilibj.geometry.Pose2d;
 import edu.wpi.first.wpilibj.geometry.Rotation2d;
