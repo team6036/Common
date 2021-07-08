@@ -16,8 +16,11 @@ Common library for 6036 code
 
 The Common library is imported into a project by using
 [Git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). In
-order to add this project as a submodule run `git submodule add
-https://github.com/team6036/Common.git Common` in your project's root
+order to add this project as a submodule run
+
+`git submodule add https://github.com/team6036/Common.git Common`
+
+in your project's root
 directory. This will clone this repository into the directory `Common`.
 
 ### Using the Common library
