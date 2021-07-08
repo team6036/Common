@@ -1,0 +1,317 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.6036",
+    "module": "Common",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1",
+      "buildId": "njqwe5d3lfanvguiucqovif4xq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "edu.wpi.first.wpilibj",
+          "module": "wpilibj-java",
+          "version": {
+            "requires": "2020.1.2"
+          }
+        },
+        {
+          "group": "edu.wpi.first.ntcore",
+          "module": "ntcore-java",
+          "version": {
+            "requires": "2020.1.2"
+          }
+        },
+        {
+          "group": "edu.wpi.first.wpiutil",
+          "module": "wpiutil-java",
+          "version": {
+            "requires": "2020.1.2"
+          }
+        },
+        {
+          "group": "edu.wpi.first.thirdparty.frc2020.opencv",
+          "module": "opencv-java",
+          "version": {
+            "requires": "3.4.7-2"
+          }
+        },
+        {
+          "group": "edu.wpi.first.cscore",
+          "module": "cscore-java",
+          "version": {
+            "requires": "2020.1.2"
+          }
+        },
+        {
+          "group": "edu.wpi.first.cameraserver",
+          "module": "cameraserver-java",
+          "version": {
+            "requires": "2020.1.2"
+          }
+        },
+        {
+          "group": "edu.wpi.first.hal",
+          "module": "hal-java",
+          "version": {
+            "requires": "2020.1.2"
+          }
+        },
+        {
+          "group": "org.ejml",
+          "module": "ejml-simple",
+          "version": {
+            "requires": "0.38"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "com.kauailabs.navx.frc",
+          "module": "navx-java",
+          "version": {
+            "requires": "3.1.400"
+          }
+        },
+        {
+          "group": "com.ctre.phoenix",
+          "module": "api-java",
+          "version": {
+            "requires": "5.17.6"
+          }
+        },
+        {
+          "group": "com.ctre.phoenix",
+          "module": "wpiapi-java",
+          "version": {
+            "requires": "5.17.6"
+          }
+        },
+        {
+          "group": "edu.wpi.first.wpilibOldCommands",
+          "module": "wpilibOldCommands-java",
+          "version": {
+            "requires": "2020.1.2"
+          }
+        },
+        {
+          "group": "com.revrobotics.frc",
+          "module": "SparkMax-java",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "edu.wpi.first.wpilibNewCommands",
+          "module": "wpilibNewCommands-java",
+          "version": {
+            "requires": "2020.1.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Common-1.0.jar",
+          "url": "Common-1.0.jar",
+          "size": 41548,
+          "sha512": "2ab4e8efcf7eca2b3d22fc878b4209adf8d1a51cd30db9b308e4b4c8a435675479e9358618db7b9e2a96368a40375ef2613461e0733504e90406254eb48580fb",
+          "sha256": "5efca4054f42c38318d4f1a5a9be08d65fe4bdb70c42e966896342faf7a46fcc",
+          "sha1": "51ae86bde3408e8540ec9d8d6ccab9e82084cd5b",
+          "md5": "656636968f2b4268f1e080618ed529cb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "edu.wpi.first.wpilibj",
+          "module": "wpilibj-java",
+          "version": {
+            "requires": "2020.1.2"
+          }
+        },
+        {
+          "group": "edu.wpi.first.ntcore",
+          "module": "ntcore-java",
+          "version": {
+            "requires": "2020.1.2"
+          }
+        },
+        {
+          "group": "edu.wpi.first.wpiutil",
+          "module": "wpiutil-java",
+          "version": {
+            "requires": "2020.1.2"
+          }
+        },
+        {
+          "group": "edu.wpi.first.thirdparty.frc2020.opencv",
+          "module": "opencv-java",
+          "version": {
+            "requires": "3.4.7-2"
+          }
+        },
+        {
+          "group": "edu.wpi.first.cscore",
+          "module": "cscore-java",
+          "version": {
+            "requires": "2020.1.2"
+          }
+        },
+        {
+          "group": "edu.wpi.first.cameraserver",
+          "module": "cameraserver-java",
+          "version": {
+            "requires": "2020.1.2"
+          }
+        },
+        {
+          "group": "edu.wpi.first.hal",
+          "module": "hal-java",
+          "version": {
+            "requires": "2020.1.2"
+          }
+        },
+        {
+          "group": "org.ejml",
+          "module": "ejml-simple",
+          "version": {
+            "requires": "0.38"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "com.kauailabs.navx.frc",
+          "module": "navx-java",
+          "version": {
+            "requires": "3.1.400"
+          }
+        },
+        {
+          "group": "com.ctre.phoenix",
+          "module": "api-java",
+          "version": {
+            "requires": "5.17.6"
+          }
+        },
+        {
+          "group": "com.ctre.phoenix",
+          "module": "wpiapi-java",
+          "version": {
+            "requires": "5.17.6"
+          }
+        },
+        {
+          "group": "edu.wpi.first.wpilibOldCommands",
+          "module": "wpilibOldCommands-java",
+          "version": {
+            "requires": "2020.1.2"
+          }
+        },
+        {
+          "group": "com.revrobotics.frc",
+          "module": "SparkMax-java",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "edu.wpi.first.wpilibNewCommands",
+          "module": "wpilibNewCommands-java",
+          "version": {
+            "requires": "2020.1.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Common-1.0.jar",
+          "url": "Common-1.0.jar",
+          "size": 41548,
+          "sha512": "2ab4e8efcf7eca2b3d22fc878b4209adf8d1a51cd30db9b308e4b4c8a435675479e9358618db7b9e2a96368a40375ef2613461e0733504e90406254eb48580fb",
+          "sha256": "5efca4054f42c38318d4f1a5a9be08d65fe4bdb70c42e966896342faf7a46fcc",
+          "sha1": "51ae86bde3408e8540ec9d8d6ccab9e82084cd5b",
+          "md5": "656636968f2b4268f1e080618ed529cb"
+        }
+      ]
+    }
+  ]
+}
