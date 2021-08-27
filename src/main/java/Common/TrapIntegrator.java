@@ -1,3 +1,5 @@
+package Common;
+
 public class TrapIntegrator {
 
     public double preVel = 0;
